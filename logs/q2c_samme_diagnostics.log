@@ -1,0 +1,127 @@
+======================================================================
+Part        : q2c_samme_diagnostics
+Started     : 2026-11-01T02:54:46
+Python      : 3.10.8 (Windows-10-10.0.26300-SP0)
+numpy       : 1.26.4
+pandas      : 2.2.1
+scikit-learn: 1.6.1
+matplotlib  : 3.8.4
+Seed        : 260002 (roll P26CS0002)
+======================================================================
+[artifact loaded] models/q2b_best_boost_model.joblib
+[figure saved] figures/q2c_samme_diagnostics_fig01.png
+[figure saved] figures/q2c_samme_diagnostics_fig02.png
+[figure saved] figures/q2c_samme_diagnostics_fig03.png
+[figure saved] figures/q2c_samme_diagnostics_fig04.png
+Training sample index: 150
+True class: 25
+Final sample weight: 0.04891432398966645
+Uniform initial weight: 0.004166666666666667
+    round  true_class  predicted_class  correct  learner_weight
+0       1          25                0    False        1.717651
+1       2          25                1    False        1.842326
+2       3          25                2    False        1.988723
+3       4          25                3    False        2.165099
+4       5          25               22    False        2.442873
+5       6          25               25     True        3.063101
+6       7          25               12    False        3.373902
+7       8          25                5    False        4.191233
+8       9          25               28    False        2.865719
+9      10          25                3    False        2.865240
+10     11          25                4    False        2.848858
+11     12          25               23    False        2.929058
+12     13          25               25     True        3.282951
+13     14          25               17    False        3.247809
+14     15          25               14    False        3.163554
+15     16          25               20    False        3.126504
+16     17          25                3    False        3.254240
+17     18          25                4    False        3.010481
+18     19          25               22    False        2.914896
+19     20          25               25     True        3.088584
+20     21          25               17    False        2.859809
+21     22          25               39    False        3.185861
+22     23          25               20    False        2.893989
+23     24          25                2    False        3.272263
+24     25          25                4    False        3.044063
+25     26          25                3    False        2.956009
+26     27          25               24    False        2.946472
+27     28          25               25     True        2.829103
+28     29          25               12    False        3.270865
+29     30          25               20    False        3.058015
+30     31          25               14    False        3.071923
+31     32          25               28    False        2.916162
+32     33          25                2    False        2.888411
+33     34          25               27    False        3.469817
+34     35          25               30    False        3.045723
+35     36          25               15    False        3.008128
+36     37          25               20    False        2.897719
+37     38          25               14    False        2.900028
+38     39          25               25     True        2.873400
+39     40          25                2    False        2.888941
+40     41          25                3    False        3.123936
+41     42          25                4    False        2.601844
+42     43          25               24    False        3.062694
+43     44          25               16    False        2.649514
+44     45          25               25     True        3.014206
+45     46          25               20    False        3.162529
+46     47          25               14    False        2.873353
+47     48          25                2    False        2.965497
+48     49          25                4    False        2.956031
+49     50          25                3    False        2.854052
+50     51          25               24    False        2.795600
+51     52          25               15    False        2.900417
+52     53          25               25     True        2.995399
+53     54          25               14    False        2.899963
+54     55          25               20    False        3.063100
+55     56          25               39    False        3.116150
+56     57          25                4    False        3.319094
+57     58          25                3    False        3.239348
+58     59          25               27    False        3.021763
+59     60          25               34    False        2.794514
+60     61          25               12    False        2.841657
+61     62          25               20    False        3.013449
+62     63          25               25     True        2.947373
+63     64          25                2    False        3.162097
+64     65          25                4    False        2.838415
+65     66          25               24    False        2.852387
+66     67          25               30    False        2.872940
+67     68          25               16    False        2.873902
+68     69          25               25     True        2.936595
+69     70          25               20    False        3.064391
+70     71          25               39    False        3.198287
+71     72          25                2    False        2.943703
+72     73          25                4    False        2.955122
+73     74          25                3    False        2.972235
+74     75          25               25     True        3.163606
+75     76          25               13    False        3.168315
+76     77          25               25     True        3.021283
+77     78          25               37    False        2.663988
+78     79          25               39    False        2.757503
+79     80          25               14    False        2.848794
+80     81          25               12    False        2.755479
+81     82          25                4    False        2.917829
+82     83          25               24    False        2.955019
+83     84          25               16    False        3.008713
+84     85          25               14    False        2.996319
+85     86          25               20    False        2.748147
+86     87          25               39    False        3.107836
+87     88          25                2    False        2.989545
+88     89          25                3    False        3.002375
+89     90          25                6    False        3.078646
+90     91          25               15    False        3.228764
+91     92          25               14    False        2.846831
+92     93          25               25     True        2.871770
+93     94          25               22    False        3.120209
+94     95          25                0    False        2.933460
+95     96          25                4    False        2.973906
+96     97          25               27    False        3.169825
+97     98          25               24    False        2.995947
+98     99          25                3    False        2.964445
+99    100          25               14    False        3.091050
+[figure saved] figures/q2c_samme_diagnostics_fig05.png
+[figure saved] figures/q2c_samme_diagnostics_fig06.png
+[table saved] results/q2c_samme_round_diagnostics.csv
+[table saved] results/q2c_hard_sample_history.csv
+======================================================================
+Finished q2c_samme_diagnostics in 2.9 s
+======================================================================

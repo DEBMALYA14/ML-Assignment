@@ -1,0 +1,35 @@
+======================================================================
+Part        : q3a_bias_variance
+Started     : 2026-11-01T02:54:53
+Python      : 3.10.8 (Windows-10-10.0.26300-SP0)
+numpy       : 1.26.4
+pandas      : 2.2.1
+scikit-learn: 1.6.1
+matplotlib  : 3.8.4
+Seed        : 260002 (roll P26CS0002)
+======================================================================
+[artifact loaded] models/q1a_best_tree.joblib
+[artifact loaded] models/q1d_final_trees.joblib
+[artifact loaded] models/q2b_best_boost_model.joblib
+Selected single-tree depth: None
+Selected single-tree min_samples_leaf: 2
+Selected boosting depth: 4
+Selected boosting rounds: 100
+Final bagging ensemble size: 50
+Completed 5/30 repetitions
+Completed 10/30 repetitions
+Completed 15/30 repetitions
+Completed 20/30 repetitions
+Completed 25/30 repetitions
+Completed 30/30 repetitions
+
+Q3(a): Measured bias, variance and accuracy stability
+         Model  Bias squared  Variance  Mean test accuracy  SD test accuracy
+0  Single tree       0.37425   0.64158             0.49208           0.04459
+1      Bagging       0.50107   0.03072             0.78542           0.04620
+2     Boosting       0.89230   0.01638             0.26833           0.08880
+[table saved] results/q3a_bias_variance.csv
+[table saved] results/q3a_accuracy_per_repetition.csv
+======================================================================
+Finished q3a_bias_variance in 2694.5 s
+======================================================================

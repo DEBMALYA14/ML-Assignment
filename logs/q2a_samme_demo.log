@@ -1,0 +1,38 @@
+======================================================================
+Part        : q2a_samme_demo
+Started     : 2026-11-01T02:51:24
+Python      : 3.10.8 (Windows-10-10.0.26300-SP0)
+numpy       : 1.26.4
+pandas      : 2.2.1
+scikit-learn: 1.6.1
+matplotlib  : 3.8.4
+Seed        : 260002 (roll P26CS0002)
+======================================================================
+Training samples: 240
+Validation samples: 80
+Clean test samples: 80
+Masked test samples: 80
+Number of classes: 40
+Initial sample weights:
+[0.11111111 0.11111111 0.11111111 0.11111111 0.11111111 0.11111111
+ 0.11111111 0.11111111 0.11111111]
+
+True labels:
+[0 0 0 0 1 1 1 2 2]
+
+Weak learner predictions:
+[0 0 0 0 1 1 1 1 1]
+
+Weighted error: 0.2222222222222222
+Random-guessing error threshold: 0.6666666666666667
+
+Learner weight alpha: 1.9459101490553135
+
+Updated normalised sample weights:
+[0.04761905 0.04761905 0.04761905 0.04761905 0.04761905 0.04761905
+ 0.04761905 0.33333333 0.33333333]
+
+Sum of updated weights: 1.0
+======================================================================
+Finished q2a_samme_demo in 1.0 s
+======================================================================

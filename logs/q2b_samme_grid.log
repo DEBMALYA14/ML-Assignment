@@ -1,0 +1,52 @@
+======================================================================
+Part        : q2b_samme_grid
+Started     : 2026-11-01T02:51:27
+Python      : 3.10.8 (Windows-10-10.0.26300-SP0)
+numpy       : 1.26.4
+pandas      : 2.2.1
+scikit-learn: 1.6.1
+matplotlib  : 3.8.4
+Seed        : 260002 (roll P26CS0002)
+======================================================================
+Training depth=1, rounds=10
+Training depth=1, rounds=25
+Training depth=1, rounds=50
+Training depth=1, rounds=100
+Training depth=2, rounds=10
+Training depth=2, rounds=25
+Training depth=2, rounds=50
+Training depth=2, rounds=100
+Training depth=3, rounds=10
+Training depth=3, rounds=25
+Training depth=3, rounds=50
+Training depth=3, rounds=100
+Training depth=4, rounds=10
+Training depth=4, rounds=25
+Training depth=4, rounds=50
+Training depth=4, rounds=100
+    depth  requested_rounds  actual_rounds  train_accuracy  validation_accuracy  training_time_seconds
+0       4               100            100        1.000000               0.5250              38.325437
+1       4                50             50        0.966667               0.4000              19.033882
+2       3                50             50        0.587500               0.3250              17.227982
+3       3               100            100        0.670833               0.2875              33.100439
+4       2                50             50        0.441667               0.2375              11.581035
+5       4                25             25        0.462500               0.2250              10.077142
+6       3                25             25        0.350000               0.2125               8.797116
+7       3                10             10        0.291667               0.1500               3.422076
+8       1               100            100        0.175000               0.1250              10.614425
+9       2                10             10        0.129167               0.1125               2.219151
+10      4                10             10        0.300000               0.1125               3.794267
+11      2                25             25        0.208333               0.1000               5.596315
+12      2               100            100        0.208333               0.1000              22.641678
+13      1                50             50        0.091667               0.0875               5.675772
+14      1                25             25        0.050000               0.0500               2.729594
+15      1                10             10        0.050000               0.0375               1.048906
+Selected depth: 4
+Selected requested rounds: 100
+Actual learners: 100
+Validation accuracy: 0.525
+[table saved] results/q2b_samme_grid.csv
+[artifact saved] models/q2b_best_boost_model.joblib
+======================================================================
+Finished q2b_samme_grid in 197.9 s
+======================================================================

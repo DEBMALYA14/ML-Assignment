@@ -1,0 +1,26 @@
+{
+  "roll_number": "P26CS0002",
+  "roll": "260002",
+  "seed": 260002,
+  "dataset": "Olivetti faces (sklearn.datasets.fetch_olivetti_faces, shuffle=False)",
+  "split": {
+    "file": "data/olivetti_split.npz",
+    "per_identity": {"train": 6, "test": 2, "validation": 2},
+    "rule": "per identity i: shuffle indices with np.random.default_rng(seed); [:6] train, [6:8] test, [8:10] validation"
+  },
+  "paths": {
+    "data": "data",
+    "figures": "figures",
+    "logs": "logs",
+    "models": "models",
+    "results": "results"
+  },
+  "q1a_tree_grid": {"max_depth": [2, 4, 8, 16, null], "min_samples_leaf": [1, 2, 4], "random_state": "seed"},
+  "q1b_bagging": {"initial_trees": 10, "B_values": [1, 5, 10, 25, 50, 100, 200], "tree_random_state": "seed + b", "bootstrap_rng": "default_rng(seed + b)"},
+  "q1c_oob": {"B_values": [1, 5, 10, 25, 50, 100, 200]},
+  "q1d_final": {"B_final": 50, "mask_rows": [24, 40], "mask_cols": [24, 40]},
+  "q2b_samme_grid": {"max_depth": [1, 2, 3, 4], "n_estimators": [10, 25, 50, 100], "random_state": "seed"},
+  "q3a_bias_variance": {"R": 30, "rng": "default_rng(seed + 3000)", "bootstrap": "6 faces per identity, with replacement"},
+  "q3b_depth": {"R_DEPTH": 30, "B_DEPTH": 100, "depths": {"Shallow": 2, "Selected": "best_tree.get_depth()", "Deep": "max(32, selected + 5)"}, "rng": "default_rng(seed + 5000)"},
+  "q3c_diagnostics": {"rng": "default_rng(seed + 9000)"}
+}

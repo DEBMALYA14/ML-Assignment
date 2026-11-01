@@ -1,0 +1,23 @@
+======================================================================
+Part        : q3b_depth_bias_variance
+Started     : 2026-11-01T03:39:50
+Python      : 3.10.8 (Windows-10-10.0.26300-SP0)
+numpy       : 1.26.4
+pandas      : 2.2.1
+scikit-learn: 1.6.1
+matplotlib  : 3.8.4
+Seed        : 260002 (roll P26CS0002)
+======================================================================
+[artifact loaded] models/q1a_best_tree.joblib
+
+Depth setting: Shallow (max_depth=2)
+  Completed 10/30 repetitions
+  Completed 20/30 repetitions
+  Completed 30/30 repetitions
+
+Depth setting: Selected (max_depth=32)
+  Completed 10/30 repetitions
+  Completed 20/30 repetitions
+  Completed 30/30 repetitions
+
+Depth setting: Deep (max_depth=37)

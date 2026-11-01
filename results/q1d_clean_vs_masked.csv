@@ -1,0 +1,3 @@
+Dataset,Tree accuracy,Tree mean confidence,Bagging accuracy,Bagging mean confidence
+Clean test,0.625,0.9875,0.8125,0.39899999999999997
+Masked test,0.075,1.0,0.7625,0.328

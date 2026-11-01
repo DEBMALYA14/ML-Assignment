@@ -1,0 +1,22 @@
+======================================================================
+Part        : q0_data_split
+Started     : 2026-11-01T02:32:46
+Python      : 3.10.8 (Windows-10-10.0.26300-SP0)
+numpy       : 1.26.4
+pandas      : 2.2.1
+scikit-learn: 1.6.1
+matplotlib  : 3.8.4
+Seed        : 260002 (roll P26CS0002)
+======================================================================
+(400, 4096)
+(400,)
+Number of classes: 40
+[figure saved] figures/q0_data_split_fig01.png
+Training images: 240
+Validation images: 80
+Testing images: 80
+Split saved to data/olivetti_split.npz
+[table saved] results/q0_split_indices.csv
+======================================================================
+Finished q0_data_split in 2.4 s
+======================================================================

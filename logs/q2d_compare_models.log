@@ -1,0 +1,27 @@
+======================================================================
+Part        : q2d_compare_models
+Started     : 2026-11-01T02:54:51
+Python      : 3.10.8 (Windows-10-10.0.26300-SP0)
+numpy       : 1.26.4
+pandas      : 2.2.1
+scikit-learn: 1.6.1
+matplotlib  : 3.8.4
+Seed        : 260002 (roll P26CS0002)
+======================================================================
+[artifact loaded] models/q1a_best_tree.joblib
+[artifact loaded] models/q1d_final_trees.joblib
+[artifact loaded] models/q2b_best_boost_model.joblib
+Single tree depth: 32
+Number of bagged trees: 50
+Number of boosting learners: 100
+       dataset        model  accuracy  mean_winning_confidence
+0   Clean test  Single tree    0.6250                 0.987500
+1   Clean test      Bagging    0.8125                 0.399000
+2   Clean test     Boosting    0.4625                 0.117643
+3  Masked test  Single tree    0.0750                 1.000000
+4  Masked test      Bagging    0.7625                 0.328000
+5  Masked test     Boosting    0.4500                 0.117566
+[table saved] results/q2d_model_comparison.csv
+======================================================================
+Finished q2d_compare_models in 1.4 s
+======================================================================

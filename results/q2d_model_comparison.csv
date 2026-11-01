@@ -1,0 +1,7 @@
+dataset,model,accuracy,mean_winning_confidence
+Clean test,Single tree,0.625,0.9875
+Clean test,Bagging,0.8125,0.39899999999999997
+Clean test,Boosting,0.4625,0.1176429447944195
+Masked test,Single tree,0.075,1.0
+Masked test,Bagging,0.7625,0.328
+Masked test,Boosting,0.45,0.11756638940167559

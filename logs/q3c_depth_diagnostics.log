@@ -1,0 +1,43 @@
+======================================================================
+Part        : q3c_depth_diagnostics
+Started     : 2026-11-01T00:27:05
+Python      : 3.10.8 (Windows-10-10.0.26300-SP0)
+numpy       : 1.26.4
+pandas      : 2.2.1
+scikit-learn: 1.6.1
+matplotlib  : 3.8.4
+Seed        : 260002 (roll P26CS0002)
+======================================================================
+[artifact loaded] models/q1a_best_tree.joblib
+[artifact loaded] models/q3b_depth_results.joblib
+
+Diagnostics for Shallow depth: 2
+  Completed 10/30 repetitions
+  Completed 20/30 repetitions
+  Completed 30/30 repetitions
+
+Diagnostics for Selected depth: 32
+  Completed 10/30 repetitions
+  Completed 20/30 repetitions
+  Completed 30/30 repetitions
+
+Diagnostics for Deep depth: 37
+  Completed 10/30 repetitions
+  Completed 20/30 repetitions
+  Completed 30/30 repetitions
+
+Q3(c): Leaf occupancy, disagreement and bagging benefit
+  Depth setting  Max depth  Mean single-tree leaf occupancy  Mean bagged-tree leaf occupancy  Mean pairwise disagreement  Single-tree accuracy  Bagging accuracy  Accuracy improvement  Variance removed  Variance reduction (%)
+0       Shallow          2                         79.33333                         77.73333                     0.96029               0.05625           0.12875               0.07250           0.02925                72.61040
+1      Selected         32                          6.68139                          5.97036                     0.82669               0.44333           0.79375               0.35042           0.56300                96.08351
+2          Deep         37                          6.00000                          5.46922                     0.82063               0.48167           0.80375               0.32208           0.63178                96.44528
+
+Q3(c) measured conclusion
+Largest accuracy improvement from bagging: Selected (0.35042)
+Deep-tree accuracy improvement: 0.32208
+In this experiment, the deepest tree did NOT give the largest measured accuracy improvement. The results show that depth alone does not determine the benefit of bagging.
+[figure saved] figures/q3c_depth_diagnostics_fig01.png
+[table saved] results/q3c_depth_diagnostics.csv
+======================================================================
+Finished q3c_depth_diagnostics in 7546.5 s
+======================================================================
